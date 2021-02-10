@@ -10,6 +10,7 @@ function App() {
         <Switch>
           <Route path="/">
             <Home />
+            <Link to="/hello">Link</Link>
           </Route>
         </Switch>
       </Router>
