@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="https://mtzger.github.io/test_deploy2/">
             <Home />
           </Route>
         </Switch>
