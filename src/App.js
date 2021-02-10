@@ -6,7 +6,7 @@ import Home from "./unnamed/Home"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router path="/test_deploy2">
         <Switch>
           <Route path="/">
             <Home />
