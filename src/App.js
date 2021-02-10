@@ -6,11 +6,16 @@ import Home from "./unnamed/Home"
 function App() {
   return (
     <div className="App">
-      <Router path="/test_deploy2">
+      <Link to="/test_deploy2/hello">Link</Link>
+      <Link to="/hello">Hello Link</Link>
+      <Router>
         <Switch>
-          <Route path="/">
+        <Route path="/">
             <Home />
-            <Link to="/hello">Link</Link>
+          </Route>
+
+          <Route path="/hello">
+            <h1>HELLO</h1>
           </Route>
         </Switch>
       </Router>
