@@ -6,11 +6,9 @@ import Home from "./unnamed/Home"
 function App() {
   return (
     <div className="App">
-      <Link to="/test_deploy2/hello">Link</Link>
-      <Link to="/hello">Hello Link</Link>
       <Router>
         <Switch>
-        <Route path="/">
+          <Route path="/test_deploy2/">
             <Home />
           </Route>
 
